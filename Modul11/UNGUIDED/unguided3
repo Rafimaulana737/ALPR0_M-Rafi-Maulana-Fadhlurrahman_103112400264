@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+func main() {
+	var x, y, hasil int
+	fmt.Print("Masukkan x: ")
+	fmt.Scan(&x)
+	fmt.Print("Masukkan y: ")
+	fmt.Scan(&y)
+
+	for x >= y {
+		x -= y
+		hasil++
+	}
+	fmt.Println("Hasil:", hasil)
+}
