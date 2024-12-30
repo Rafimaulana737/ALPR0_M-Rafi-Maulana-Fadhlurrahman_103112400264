@@ -1,3 +1,24 @@
+Mulai
+    saldo ← 0  // Inisialisasi saldo awal
+
+    ulangi selama transaksi tidak 0:
+        Tanyakan "Masukkan transaksi: "
+        Baca transaksi
+
+        jika transaksi > 0:
+            saldo ← saldo + transaksi  // Uang masuk
+        jika transaksi < 0:
+            saldo ← saldo - transaksi  // Uang keluar
+
+    Tampilkan saldo
+Selesai
+
+
+
+
+
+
+
 package main
 
 import "fmt"
