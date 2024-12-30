@@ -1,3 +1,19 @@
+program SportClub
+kamus
+    s, minggu integer
+algoritma
+    input(s)
+    1 minggu adalah 7 hari,
+    minggu s div 7
+if s mod 7 == 0 then
+    output("Minggu ke-", minggu)
+else
+    output("Minggu ke-", minggu + 1)
+endif
+endprogram
+
+
+
 package main
 
 import "fmt"
