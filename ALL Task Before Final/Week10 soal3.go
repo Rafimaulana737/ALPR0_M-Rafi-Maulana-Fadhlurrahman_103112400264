@@ -1,3 +1,22 @@
+Mulai
+    Tanyakan "Masukkan keuntungan bulan ini: "
+    Baca keuntungan_bulan_ini
+
+    Tanyakan "Masukkan keuntungan bulan sebelumnya: "
+    Baca keuntungan_bulan_sebelumnya
+
+    keuntungan_berbeda ← keuntungan_bulan_ini - keuntungan_bulan_sebelumnya
+
+    jika keuntungan_berbeda > 0:
+        Tampilkan "Peningkatan keuntungan sebesar" keuntungan_berbeda
+    jika keuntungan_berbeda < 0:
+        Tampilkan "Penurunan keuntungan sebesar" (-keuntungan_berbeda)
+    jika keuntungan_berbeda = 0:
+        Tampilkan "Keuntungan tetap"
+Selesai
+
+
+
 package main
 
 import "fmt"
