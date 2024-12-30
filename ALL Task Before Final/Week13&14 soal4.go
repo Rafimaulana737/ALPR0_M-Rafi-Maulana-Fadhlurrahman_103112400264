@@ -1,3 +1,19 @@
+Mulai
+    Tanyakan "Masukkan jumlah bilangan: "
+    Baca n  // jumlah bilangan yang akan dimasukkan
+
+    Tanyakan "Masukkan bilangan pertama: "
+    Baca bilangan_terbesar
+    untuk i ← 2 hingga n:
+        Tanyakan "Masukkan bilangan berikutnya: "
+        Baca bilangan
+
+        jika bilangan > bilangan_terbesar:
+            bilangan_terbesar ← bilangan  // Update bilangan terbesar
+
+    Tampilkan "Bilangan terbesar adalah: " bilangan_terbesar
+Selesai
+
 package main
 
 import "fmt"
