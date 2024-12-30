@@ -1,3 +1,18 @@
+mulai
+    tampilkan "masukkan satu karakter: "
+    baca karakter
+
+    jika karakter adalah huruf (a-z atau a-z) maka
+        jika karakter bukan vokal (a, e, i, o, u) maka
+            tampilkan "konsonan"
+        lain
+            tampilkan "bukan konsonan"
+        akhir jika
+    lain
+        tampilkan "bukan konsonan"
+    akhir jika
+selesai
+
 package main
 
 import "fmt"
